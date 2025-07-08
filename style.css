@@ -1,0 +1,37 @@
+#clockCon{
+    position: relative;
+    margin : auto;
+    height: 40vw;
+    width : 40vw;
+    height: 440px;
+    width : 440px;
+    background : url(clk.png) no-repeat;
+     background-size: 100%;  
+}
+#hour,#minute,#second{
+    position : absolute;
+   background: black;
+   border-radius: 10px;
+   transform-origin: bottom;
+}
+#hour{
+   width : 1.8%;
+   height: 20%;
+   top : 29.5%;
+   left : 48.8%;
+   opacity : 0.8;
+}
+#minute{
+        width : 1.6%;
+        height: 29%;
+        top : 20.8%;
+        left : 48.8%;
+        opacity : 0.8;
+}
+#second{
+        width : 1%;
+        height: 35%;
+        top : 16%;
+        left : 49.5%;
+        opacity : 0.8;
+}
